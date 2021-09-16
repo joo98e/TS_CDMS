@@ -7,15 +7,15 @@ interface State {
   
 }
 
-export default class App extends Component<Props, State> {
-  state = {}
+class App extends Component<Props, State> {
 
   render() {
     return (
       <div>
-         
+        
       </div>
     )
   }
 }
 
+export default App
